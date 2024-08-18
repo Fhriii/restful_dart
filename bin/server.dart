@@ -15,7 +15,7 @@ Response _getAllItems(Request request) {
 Response _getItem(Request request, String id) {
   final item = _items.firstWhere(
     (item) => item['id'] == id,
-    orElse: ()=>{}, // orElse menggunakan fungsi anonim yang mengembalikan null
+    orElse: ()=>{}, 
   );
   if (item == null) {
     return Response.notFound('Item not found');
