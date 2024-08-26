@@ -1,4 +1,5 @@
 # Cara Mencoba
+## Ini hanya post dan get di server tanpa database
 
 ## 1. Copy / clone github
 ```
